@@ -1,6 +1,6 @@
 # AFEC Classifiers
 
-This repository holds the sample-train-packs which are used to create [AFEC](https://git.github.com/emuell/afec)'s default category and classification models. 
+This repository holds the sample-train-packs which are used to create [AFEC](https://github.com/emuell/afec)'s default category and classification models. 
 
 Please note that *only* the extracted audio-features for the machine learning models and folder structure is included here. The actual audio-files of the classification packs partly got lost and also can't be uploaded because of unclear copyright issues.
 
