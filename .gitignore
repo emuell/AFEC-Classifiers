@@ -1,0 +1,26 @@
+# general
+.DS_Store
+**/.DS_Store
+
+# descriptors
+# **/afec-ll.db
+**/afec-ll.shark
+**/afec-ll.csv
+
+# keras temp models
+*/*.hdf5
+
+# augmented audio files
+*/*/*_aug?.wav
+
+# script cache
+Scripts/__pycache__
+Scripts/.vscode
+Scripts/talos.log
+
+# script evaluation
+Scripts/Results.md
+
+# model evaluation 
+*/Confusion.csv
+*/PredictionErrors.csv
