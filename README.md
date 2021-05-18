@@ -22,9 +22,9 @@ __Categories__ in AFEC: detects categories for all sounds which got classified a
 
 ## Creating new or updating existing models
 
-The AFEC crawler executable uses two bundled [shark models](https://git.github.com/emuell/afec/master/Source/Classification/Export/ClassificationModel.h) to evaluate the classifiers. The shark models get built from the sample-packs in this repository.
+The AFEC crawler executable uses two bundled [shark models](https://github.com/emuell/AFEC/tree/master/Source/Classification/Export/ClassificationModel.h) to evaluate the classifiers. The shark models get built from the sample-packs in this repository.
 
-To update the existing or built new models, you can use the `Create%SAMPLE_PACK_NAME%Model.[bat|sh]` scripts in the main AFEC main repository at [Scripts/ModelCreator](https://git.github.com/emuell/afec/master/Scripts/ModelCreator).
+To update the existing or built new models, you can use the `Create%SAMPLE_PACK_NAME%Model.[bat|sh]` scripts in the main AFEC main repository at [Scripts/ModelCreator](https://github.com/emuell/AFEC/tree/master/Scripts/ModelCreator).
 
 They do the following for each sample pack:
 
@@ -40,7 +40,7 @@ $ ModelCreator $PATH_TO_SAMPLE_PACK/features.db
 
 ## Testing models or adding new classes 
 
-To test modified sample packs or when adding completely new categories, the `ModelTester` executable can be used to evaluate and debug the performance of the newly created model and classes. To do so, you can use the `Test%SAMPLE_PACK_NAME%Model.bat` scripts in the main AFEC main repository at [Scripts/ModelCreator](https://git.github.com/emuell/afec/master/Scripts/ModelCreator).
+To test modified sample packs or when adding completely new categories, the `ModelTester` executable can be used to evaluate and debug the performance of the newly created model and classes. To do so, you can use the `Test%SAMPLE_PACK_NAME%Model.bat` scripts in the main AFEC main repository at [Scripts/ModelCreator](https://github.com/emuell/AFEC/tree/master/Scripts/ModelCreator).
 
 Similar to the ModelCreator, they do the following:
 
