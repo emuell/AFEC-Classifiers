@@ -11,6 +11,9 @@ But you can use the extracted features (`afec-ll.csv`) to test various classific
 The `./Scripts` folder contains various python scripts to experiment with Keras / Tensorflow classification models.<br/> 
 See individual `train_XXX.py` files for details and pip dependencies. Please note: AFEC does not use those Keras models - they are *only* used for the sake of experimentation. 
 
+**Please Note**: The datasets are stored via git lfs, so first make sure they are checked out via `git lfs pull`.
+
+
 ## Classification Packs
 
 * `OneShot-vs-Loops`: 
